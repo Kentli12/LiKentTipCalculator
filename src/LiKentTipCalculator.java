@@ -27,6 +27,8 @@ public class LiKentTipCalculator
     }
 
     cost++;
-    System.out.print(cost);
+    System.out.print("Total Bill Before Tip: " + cost);
+    System.out.print("tip Percentage: " + tipPercent);
+    System.out.print("Total Tip: ")
 }
 }
