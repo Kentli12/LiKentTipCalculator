@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="fe692896-8cf1-403d-8c1c-11543b007b3d" name="Changes" comment="First">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LiKentTipCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LiKentTipCalculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

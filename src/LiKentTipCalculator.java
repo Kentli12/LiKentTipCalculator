@@ -26,9 +26,24 @@ public class LiKentTipCalculator
         cost += userInput;
     }
 
-    cost++;
-    System.out.print("Total Bill Before Tip: " + cost);
-    System.out.print("tip Percentage: " + tipPercent);
-    System.out.print("Total Tip: ")
+        cost++;
+        double tipAmt = (tipPercent * cost)/100;
+        String formattedtipAmt = formatter.format(tipAmt);
+        double totalBill = (tipAmt + cost);
+        String formattedtotalBill = formatter.format(totalBill);
+        double beforeTip = (cost/numPeople);
+        String formattedbeforeTip = formatter.format(beforeTip);
+        double tipPerson = (tipAmt/numPeople);
+        String formattedtipPerson = formatter.format(tipPerson);
+        double perCost = (totalBill/numPeople);
+        String formattedperCost = formatter.format(perCost);
+
+    System.out.println("Total Bill Before Tip: " + cost);
+    System.out.println("tip Percentage: " + tipPercent);
+    System.out.println("Total Tip: " + formattedtipAmt);
+    System.out.println("Total Bill With Tip: "+ formattedtotalBill);
+    System.out.println("Per Person Cost Before Tip: " + formattedbeforeTip);
+    System.out.println("Tip per Person: " + formattedtipPerson);
+    System.out.println("Total Cost Per Person: "+ formattedperCost);
 }
 }
