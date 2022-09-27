@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe692896-8cf1-403d-8c1c-11543b007b3d" name="Changes" comment="Finished up most of it">
-      <change beforePath="$PROJECT_DIR$/src/LiKentTipCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LiKentTipCalculator.java" afterDir="false" />
+    <list default="true" id="fe692896-8cf1-403d-8c1c-11543b007b3d" name="Changes" comment="Finished up with comments">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663891337246</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Finished up with comments">
+      <created>1663891972732</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1663891972732</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -97,7 +104,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First" />
     <MESSAGE value="Finished up most of it" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished up most of it" />
+    <MESSAGE value="Finished up with comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished up with comments" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -9,7 +9,7 @@ public class LiKentTipCalculator
         DecimalFormat formatter = new DecimalFormat("#.##");
     //This part of the code will welcome print out the starting questions to get the user's input to calculate their tip and change.
     //The user's inputs are scanned stored as variables for the calculations.
-    System.out.println("Welcome to my tip calculator!");
+    System.out.println("Welcome to the tip calculator!");
     System.out.print("How many people are in your group?: ");
         int numPeople = scan.nextInt();
         scan.nextLine();
@@ -50,5 +50,6 @@ public class LiKentTipCalculator
     System.out.println("Per Person Cost Before Tip: " + formattedbeforeTip);
     System.out.println("Tip per Person: " + formattedtipPerson);
     System.out.println("Total Cost Per Person: "+ formattedperCost);
+    scan.close();
 }
 }
